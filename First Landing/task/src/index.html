@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <nav>
+    <a href="#home" id="link_logo">
+      <img src="img/logo.png" alt="logo" title="logo" width="64px" height="64px">
+    </a>
+    <a href="#home" id="link_home">Home</a>
+    <a href="#product" id="link_product">Product</a>
+    <a href="#contact" id="link_contact">Contact</a>
+  </nav>
+</header>
+<main>
+  <div id="home">
+    <div id="second-div">
+      <h1>any text of my choice</h1>
+      <p>any text of my choice</p>
+      <a href="#product">any text of my choice</a>
+    </div>
+  </div>
+  <div id="product">
+    <div id="col-1">
+        <div class="product-content">
+            <h2>any text of my choice</h2>
+            <p>any text of my choice</p>
+        </div>
+        <div class="product-image">
+            <img title="cat1" src="img/1.jpg" alt="cat image">
+        </div>
+    </div>
+    <div id="col-2">
+        <div class="product-content">
+            <h2>any text of my choice</h2>
+            <p>any text of my choice</p>
+        </div>
+        <div class="product-image" style="background-color: rgb(0, 0, 0)">
+          <img title="cat2" src="img/2.jpg" alt="cat image">
+        </div>
+    </div>
+  </div>
+</main>
+<footer>
+<div id="contact">
+  <div id="contact-col1">
+    <a href="#home" id="footer_link_logo">
+      <img src="img/logo.png" alt="logo" title="logo" width="64px" height="64px">
+    </a>
+    <div id="rest-of-the-links">
+      <a href="#home" id="footer_link_home">Home</a>
+      <a href="#product" id="footer_link_product">Product</a>
+      <a href="#contact" id="footer_link_contact">Contact</a>
+    </div>
+    <p>2022</p>
+  </div>
+  <div id="contact-col2">
+    <form action="#">
+      <h5>Sign up for the cat list</h5>
+      <div class="inputs-and-labels">
+        <label id="label-for-email" for="email">Email</label>
+        <input required placeholder="you@example.com" id="email" type="email">
+      </div>
+      <div class="inputs-and-labels">
+        <label id="label-for-checkbox" for="checkbox">
+          <input required id="checkbox" type="checkbox">
+          I agree to receive cats
+        </label>
+      </div>
+      <button id="submitBtn" type="submit">Cat up</button>
+    </form>
+  </div>
+</div>
+</footer>
+</body>
+</html>
